@@ -2,7 +2,7 @@ Example for Manufacturer Model
 
 
 
-** button that opens modal**
+**button that opens modal**
 ```
 
 button.btn.btn-info data-target="#myModal" data-toggle="modal" type="button"  Adicionar Fabricante
