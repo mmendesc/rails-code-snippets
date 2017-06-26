@@ -26,3 +26,16 @@ button.btn.btn-info data-target="#myModal" data-toggle="modal" type="button"  Ad
         button.btn.btn-default data-dismiss="modal" type="button"  Cancelar
 
 ```
+
+
+**Form**
+
+```
+
+= form_for Manufacturer.new, remote: true do |f|
+  = f.label 'Fabricante'
+  = f.text_field :name
+
+  = f.button 'Criar', type: 'submit'
+
+```
