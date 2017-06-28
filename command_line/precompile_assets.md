@@ -1,4 +1,4 @@
-Precompile assets for production
+**Precompile assets for production**
 
 ```
 
