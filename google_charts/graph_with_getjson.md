@@ -119,3 +119,21 @@ $(document).on('turbolinks:load',function() {
 get '/top_ten' => 'reports#top_ten', as: 'top_ten_clients'
 
 ```
+
+
+**Optional**
+
+**Show number of total objects**
+
+Add this to options
+```javascript
+sliceVisibilityThreshold: 0,
+
+```
+
+And add one more row 
+
+```javascript
+['Total: ' + data.total,0]
+
+```
